@@ -715,7 +715,15 @@ body {
 }
 
 @media (max-width: 321px) {
+    .nav__logo img {
+        width: 120px;
+    }
     .nav__cart {
+        gap: 10px;
+        &-login img {
+            width: 30px;
+            height: 30px;
+        }
         .cart {
             width: 320px;
             top: 70px;
