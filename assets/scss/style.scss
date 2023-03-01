@@ -247,7 +247,9 @@ body {
     img {
         object-fit: cover;
     }
-    
+    .swiper-slide {
+        cursor: pointer;
+    }
 }
 
 .mySwiper {
@@ -425,6 +427,8 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+
+
 .swiper-slide {
     border-radius: 15px;
 }

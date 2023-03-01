@@ -228,14 +228,12 @@ body {
   height: 70%;
   width: 100%;
 }
-
-.mySwiper2 .swiper-slide {
-  cursor: pointer;
-}
-
 .mySwiper2 img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.mySwiper2 .swiper-slide {
+  cursor: pointer;
 }
 
 .mySwiper {
