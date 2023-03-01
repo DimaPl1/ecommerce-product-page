@@ -678,6 +678,18 @@ body {
     }
 }
 
+@media (max-width: 551px) {
+    .content__counter-wrapper {
+        flex-direction: column;
+        .counter {
+            width: 100%;
+        }
+        .to-cart {
+            width: 100%;
+        }
+    }
+}
+
 
 @media (max-width: 426px) {
     .nav__cart {
@@ -695,15 +707,7 @@ body {
         align-items: center;
         justify-content: space-between;
     }
-    .content__counter-wrapper {
-        flex-direction: column;
-        .counter {
-            width: 100%;
-        }
-        .to-cart {
-            width: 100%;
-        }
-    }
+
 }
 
 @media (max-width: 321px) {
