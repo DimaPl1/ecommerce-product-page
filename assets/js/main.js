@@ -19,8 +19,6 @@ const burgerBtn = document.querySelector('.burger'),
 burgerBtn.addEventListener('click', () => {
     navList.classList.toggle('menu--visible');
     burgerBtn.classList.toggle('burger--close');
-    // bodyHTML.classList.toggle('cover');
-    // bodyHTML.classList.toggle('stop-scroll');
     bodyHTML.classList.toggle('burger-menu-open');
 });
 
@@ -28,8 +26,6 @@ navLink.forEach(link => {
     link.addEventListener('click', () => {
         navList.classList.remove('menu--visible');
         burgerBtn.classList.remove('burger--close');
-        // bodyHTML.classList.remove('cover');
-        // bodyHTML.classList.remove('stop-scroll');
         bodyHTML.classList.remove('burger-menu-open');
     });
 });
@@ -38,10 +34,9 @@ navLink.forEach(link => {
   const slides = document.querySelectorAll('.swiper-wrapper'),
         modal = document.querySelector('.modal'),
         closeBtnModal = document.querySelector('.close-slider');
+        
 
   // активация modal swiper по нажатию на большую картинку
-
-
   slides.forEach(slide => {
     slide.addEventListener('click', () => {
       if (slide.closest('.mySwiper2')){
